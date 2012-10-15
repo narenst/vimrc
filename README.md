@@ -4,25 +4,25 @@ Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
 
 There are two versions:
 
-* **Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
+* **Basic**: If you want something small just copy [basic.vim](https://github.com/narenst/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a great basic setup
 * **Awesome**: This includes a ton of useful plugins, color schemes and configurations
 
 I would of course recommend using the awesome version.
 
 
 ## How to install the Basic version?
-The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim).
+The basic version is basically just one file and no plugins. You can check out [basic.vim](https://github.com/narenst/vimrc/blob/master/vimrcs/basic.vim).
 
 This is useful to install on remote servers where you don't need many plugins and you don't do many edits.
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git://github.com/narenst/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_basic_vimrc.sh
 
 
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git://github.com/narenst/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 
@@ -67,7 +67,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [vim-powerline](https://github.com/Lokaltog/vim-powerline): The ultimate vim statusline utility
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru and tag finder. In my config it's mapped to `<Ctrl+F>`, because `<Ctrl+P>` is used by YankRing
 * [mru.vim](https://github.com/vim-scripts/mru.vim): Plugin to manage Most Recently Used (MRU) files. Includes my own fork which adds syntax highlighting to MRU. This plugin can be opened with `<leader+f>`
-* [open_file_under_cursor.vim](https://github.com/amix/open_file_under_cursor.vim): Open file under cursor when pressing `gf`
+* [open_file_under_cursor.vim](https://github.com/narenst/open_file_under_cursor.vim): Open file under cursor when pressing `gf`
 
 
 ## What color schemes are included?
